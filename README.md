@@ -1,4 +1,4 @@
-# Corono Virus Web Site
+# Corona Virus
 
 ## Quick start
 
