@@ -1,0 +1,22 @@
+.total-info {
+  min-width: 230px;
+  height: 60px;
+  padding: 10px;
+  background-color: #222;
+  border: 1px solid #363636;
+  color: #bdbdbd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 4px;
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .total-info__text {
+    font-size: 18px;
+  }
+  .total-info__count {
+    font-size: 40px;
+  }
+}

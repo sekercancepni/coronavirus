@@ -1,0 +1,18 @@
+.loading-container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  min-width: 400px;
+  min-height: 500px;
+  img {
+    width: 60px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .loading-container {
+    height: 100vh;
+    min-width: auto;
+  }
+}

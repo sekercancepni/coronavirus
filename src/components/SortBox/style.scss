@@ -1,0 +1,15 @@
+.sorting-box {
+  line-height: 24px;
+  border: 1px solid #363636;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #50545A;
+  margin-right: 10px;
+  padding: 0px 20px;
+  cursor: pointer;
+  &.selected-sorting {
+    color: #fff;
+    background-color: #222;
+  }
+}

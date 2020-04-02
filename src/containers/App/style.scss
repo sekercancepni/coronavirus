@@ -1,0 +1,11 @@
+.wrapper {
+  background-color: #ebebeb;
+  height: calc(100vh - 20px);
+  padding: 10px;
+}
+
+@media (max-width: 1199px) {
+  .wrapper {
+    height: 100%;
+  }
+}
